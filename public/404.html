@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#C9A84C" />
+    <title>FOXFEET | Page Not Found</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;600&family=Jost:wght@300;500&display=swap");
+
+      :root {
+        color-scheme: dark;
+        --gold: #c9a84c;
+        --cream: #f0ead6;
+        --muted: #8a7f6e;
+        --bg: #13100a;
+        --card: #1c1710;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 28px;
+        background:
+          linear-gradient(135deg, rgba(201, 168, 76, 0.08), transparent 34%),
+          radial-gradient(circle at 70% 22%, rgba(201, 168, 76, 0.12), transparent 28%),
+          var(--bg);
+        color: var(--cream);
+        font-family: "Jost", sans-serif;
+      }
+
+      main {
+        width: min(680px, 100%);
+        border: 1px solid rgba(201, 168, 76, 0.18);
+        background: color-mix(in srgb, var(--card) 92%, transparent);
+        padding: clamp(34px, 8vw, 72px);
+        text-align: center;
+        box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+      }
+
+      .mark {
+        color: var(--gold);
+        font-size: 10px;
+        letter-spacing: 0.42em;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+      }
+
+      h1 {
+        margin: 0 0 16px;
+        font-family: "Cormorant Garamond", serif;
+        font-size: clamp(56px, 12vw, 112px);
+        font-weight: 300;
+        line-height: 0.9;
+      }
+
+      p {
+        margin: 0 auto 32px;
+        max-width: 430px;
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.8;
+      }
+
+      a {
+        display: inline-block;
+        background: var(--gold);
+        color: #13100a;
+        padding: 15px 24px;
+        font-size: 10px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="mark">FOXFEET / 404</div>
+      <h1>Lost Step.</h1>
+      <p>The page you requested has moved, sold out, or never made it into the collection.</p>
+      <a href="/">Return Home</a>
+    </main>
+  </body>
+</html>

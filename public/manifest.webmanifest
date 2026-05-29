@@ -1,0 +1,20 @@
+{
+  "name": "FOXFEET Premium Boots",
+  "short_name": "FOXFEET",
+  "description": "A premium boots storefront with curated collections, checkout, and atelier services.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#13100A",
+  "theme_color": "#C9A84C",
+  "categories": ["shopping", "lifestyle", "fashion"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
