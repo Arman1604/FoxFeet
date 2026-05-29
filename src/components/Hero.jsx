@@ -385,7 +385,7 @@ export default function Hero() {
 
         <motion.img
           id="hero-image"
-          src="https://i.ibb.co/JjNyGZp9/Chat-GPT-Image-May-19-2026-01-11-15-AM.png"
+          src="/assets/hero/hero.png"
           alt="Luxury leather boot from the 2026 collection"
           width={1920}
           height={1080}
