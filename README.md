@@ -1,103 +1,97 @@
-# FOXFEET 👞
+# 👞 FOXFEET
 
-A premium footwear e-commerce experience built with React, focused on luxury design, seamless shopping, and modern frontend engineering.
+### Luxury Footwear E-Commerce Experience
 
-![FoxFeet Banner](./screenshots/homepage.png)
+FoxFeet is a premium footwear shopping experience built with React and Vite, inspired by modern luxury fashion brands.
 
-## ✨ Live Demo
-
-Coming Soon
+Designed with a focus on elegant aesthetics, smooth interactions, and advanced shopping features, FoxFeet delivers a realistic e-commerce experience featuring AI-powered size recommendations, product comparison, wishlist management, order tracking, and PWA support.
 
 ---
 
-## 📖 About
+## 🌐 Live Demo
 
-FoxFeet is a luxury footwear shopping experience inspired by premium fashion brands.
-
-The project focuses on delivering a high-end user experience with advanced product discovery, wishlist management, comparison tools, AI-powered size recommendations, and a complete checkout flow.
+**Website:** https://fox-feet.vercel.app/
 
 ---
 
-## 🚀 Features
+## ✨ Key Features
 
-### Shopping Experience
-- Product Search with Suggestions
-- Advanced Filtering
-- Category Navigation
-- Product Quick View Modal
-- Multiple Product Images
-- Recently Viewed Products
+### 🛍 Shopping Experience
 
-### Smart Features
-- AI Size Recommender
-- Product Comparison System
-- Wishlist Drawer
-- Persistent Shopping Cart
-- Toast Notifications
+* Advanced Product Search
+* Smart Search Suggestions
+* Category-Based Filtering
+* Price, Color & Size Filters
+* Product Quick View Modal
+* Recently Viewed Products
 
-### Checkout Experience
-- Luxury Checkout Flow
-- Order Confirmation
-- Order Tracking
-- Email Receipt Preview
+### ❤️ Wishlist System
 
-### User Experience
-- Dark & Light Theme
-- Responsive Design
-- Loading Skeletons
-- Smooth Framer Motion Animations
-- PWA Installation Support
+* Dedicated Wishlist Drawer
+* Save & Remove Products
+* Persistent Local Storage Support
+* Wishlist Counter
 
-### Reviews
-- Customer Review System
-- Rating Submission
-- Local Storage Persistence
-- Supabase Ready Architecture
+### ⚖️ Product Comparison
+
+* Compare Multiple Products
+* Side-by-Side Feature Comparison
+* Dedicated Comparison Modal
+
+### 🤖 AI Size Recommender
+
+* Foot Length Based Recommendations
+* Automatic Size Suggestions
+* Integrated Size Guide
+
+### 🛒 Cart & Checkout
+
+* Persistent Shopping Cart
+* Luxury Checkout Flow
+* Order Confirmation Experience
+* Order Tracking Timeline
+* Email Receipt Preview
+
+### ⭐ Customer Reviews
+
+* Star Rating System
+* Review Submission
+* Local Storage Persistence
+* Supabase Ready Architecture
+
+### 🎨 Premium User Experience
+
+* Dark / Light Theme
+* Responsive Design
+* Framer Motion Animations
+* Loading Skeletons
+* Toast Notifications
+* PWA Installation Support
 
 ---
 
 ## 🛠 Tech Stack
 
 ### Frontend
-- React
-- Vite
-- JavaScript
-- Framer Motion
+
+* React
+* Vite
+* JavaScript (ES6+)
+* Framer Motion
 
 ### State Management
-- React Context API
-- Custom Hooks
 
-### Storage
-- LocalStorage
-- Supabase Ready
+* React Hooks
+* Context API
+
+### Data Persistence
+
+* Local Storage
+* Supabase Ready Integration
 
 ### Deployment
-- Vercel
 
----
-
-## 📸 Screenshots
-
-### Homepage
-
-![Homepage](./screenshots/homepage.png)
-
-### Collection
-
-![Collection](./screenshots/collection.png)
-
-### Product Modal
-
-![Modal](./screenshots/modal.png)
-
-### Checkout
-
-![Checkout](./screenshots/checkout.png)
-
-### Wishlist
-
-![Wishlist](./screenshots/wishlist.png)
+* Vercel
 
 ---
 
@@ -107,47 +101,77 @@ The project focuses on delivering a high-end user experience with advanced produ
 src/
 │
 ├── components/
+│   ├── collection/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Featured.jsx
+│   ├── WishlistDrawer.jsx
+│   ├── CartSidebar.jsx
+│   ├── Checkout.jsx
+│   └── ...
+│
 ├── hooks/
-├── lib/
+│
 ├── data/
+│
+├── lib/
+│
 ├── App.jsx
-├── main.jsx
-└── index.css
+└── main.jsx
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/Arman1604/FoxFeet.git
+
+cd FoxFeet
+
+npm install
+
+npm run dev
 ```
 
 ---
 
-## 🎯 Highlights
+## 🎯 Project Highlights
 
-- Premium Luxury UI Design
-- AI Size Recommendation Engine
-- Product Comparison Feature
-- Wishlist Management
-- Order Tracking System
-- Responsive Mobile Experience
-- PWA Support
+✔ Luxury Brand Inspired Design
 
----
+✔ AI Size Recommendation Engine
 
-## 📈 Future Improvements
+✔ Product Comparison System
 
-- Real Payments Integration
-- Supabase Database Integration
-- User Authentication
-- Order History
-- Admin Dashboard
+✔ Wishlist Management
+
+✔ Order Tracking Experience
+
+✔ Responsive Mobile Design
+
+✔ Progressive Web App (PWA)
+
+✔ Modern React Architecture
 
 ---
 
-## 👨‍💻 Author
+## 🔮 Future Enhancements
 
-Arman Singh
+* Supabase Database Integration
+* Real-Time Reviews
+* Payment Gateway Integration
+* Customer Accounts
+* Order History
+* Admin Dashboard
 
-LinkedIn:
-https://www.linkedin.com/in/arman-singh-dev/
+---
 
-GitHub:
-https://github.com/Arman1604
+## 👨‍💻 Developer
+
+**Arman Singh**
+
+GitHub: https://github.com/Arman1604
+
+LinkedIn: https://www.linkedin.com/in/arman-singh-dev/
 
 ---
 
