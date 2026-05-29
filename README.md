@@ -1,16 +1,156 @@
-# React + Vite
+# FOXFEET 👞
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium footwear e-commerce experience built with React, focused on luxury design, seamless shopping, and modern frontend engineering.
 
-Currently, two official plugins are available:
+![FoxFeet Banner](./screenshots/homepage.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Live Demo
 
-## React Compiler
+Coming Soon
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📖 About
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+FoxFeet is a luxury footwear shopping experience inspired by premium fashion brands.
+
+The project focuses on delivering a high-end user experience with advanced product discovery, wishlist management, comparison tools, AI-powered size recommendations, and a complete checkout flow.
+
+---
+
+## 🚀 Features
+
+### Shopping Experience
+- Product Search with Suggestions
+- Advanced Filtering
+- Category Navigation
+- Product Quick View Modal
+- Multiple Product Images
+- Recently Viewed Products
+
+### Smart Features
+- AI Size Recommender
+- Product Comparison System
+- Wishlist Drawer
+- Persistent Shopping Cart
+- Toast Notifications
+
+### Checkout Experience
+- Luxury Checkout Flow
+- Order Confirmation
+- Order Tracking
+- Email Receipt Preview
+
+### User Experience
+- Dark & Light Theme
+- Responsive Design
+- Loading Skeletons
+- Smooth Framer Motion Animations
+- PWA Installation Support
+
+### Reviews
+- Customer Review System
+- Rating Submission
+- Local Storage Persistence
+- Supabase Ready Architecture
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React
+- Vite
+- JavaScript
+- Framer Motion
+
+### State Management
+- React Context API
+- Custom Hooks
+
+### Storage
+- LocalStorage
+- Supabase Ready
+
+### Deployment
+- Vercel
+
+---
+
+## 📸 Screenshots
+
+### Homepage
+
+![Homepage](./screenshots/homepage.png)
+
+### Collection
+
+![Collection](./screenshots/collection.png)
+
+### Product Modal
+
+![Modal](./screenshots/modal.png)
+
+### Checkout
+
+![Checkout](./screenshots/checkout.png)
+
+### Wishlist
+
+![Wishlist](./screenshots/wishlist.png)
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── components/
+├── hooks/
+├── lib/
+├── data/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 🎯 Highlights
+
+- Premium Luxury UI Design
+- AI Size Recommendation Engine
+- Product Comparison Feature
+- Wishlist Management
+- Order Tracking System
+- Responsive Mobile Experience
+- PWA Support
+
+---
+
+## 📈 Future Improvements
+
+- Real Payments Integration
+- Supabase Database Integration
+- User Authentication
+- Order History
+- Admin Dashboard
+
+---
+
+## 👨‍💻 Author
+
+Arman Singh
+
+LinkedIn:
+https://www.linkedin.com/in/arman-singh-dev/
+
+GitHub:
+https://github.com/Arman1604
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a star.
