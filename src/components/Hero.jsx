@@ -361,6 +361,48 @@ const styles = `
   }
 
   @media (max-width: 639px) {
+    #hero-section {
+      min-height: 100svh;
+      align-items: flex-end;
+    }
+
+    #hero-image {
+      object-position: 70% center;
+      filter: brightness(0.82) contrast(1.18) saturate(0.95);
+    }
+
+    #hero-content {
+      padding: 132px 18px 34px;
+    }
+
+    .hero-label {
+      margin-bottom: 22px;
+    }
+
+    .hero-heading {
+      font-size: clamp(54px, 17vw, 76px);
+      line-height: 0.92;
+      margin-bottom: 22px;
+    }
+
+    .hero-desc {
+      max-width: 315px;
+      margin-bottom: 32px;
+      font-size: 14px;
+      line-height: 1.75;
+    }
+
+    .hero-btn-primary,
+    .hero-btn-secondary {
+      width: 100%;
+      text-align: center;
+    }
+
+    .hero-stats-strip {
+      margin-top: 36px;
+      gap: 10px;
+    }
+
     [data-theme="light"] #hero-image {
       opacity: 0.42;
       object-position: 72% center;
